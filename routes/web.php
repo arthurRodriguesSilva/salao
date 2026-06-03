@@ -16,3 +16,11 @@ Route::resource(
     ClientController::class
 );
 
+use App\Http\Controllers\ProfessionalController;
+
+Route::resource(
+    'professionals',
+    ProfessionalController::class
+);
+
+

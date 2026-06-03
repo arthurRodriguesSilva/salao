@@ -1,93 +1,56 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<ul class="nav flex-column">
 
-<head>
+    <li class="nav-item mb-2">
 
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    @vite([
-        'resources/css/app.css',
-        'resources/js/app.js'
-    ])
-
-    <title>
-        Salão
-    </title>
-
-</head>
-
-<body class="bg-light">
-
-    <div class="d-flex">
-
-        <div
-            class="bg-dark text-white p-3 shadow"
-            style="
-                width:250px;
-                min-height:100vh;
-            "
+        <a
+            href="/clients"
+            class="nav-link text-white"
         >
 
-            <h2 class="mb-4">
-                Salão
-            </h2>
+            Clientes
 
-            <ul class="nav flex-column">
+        </a>
 
-                <li class="nav-item mb-2">
+    </li>
 
-                    <a
-                        href="/clients"
-                        class="nav-link text-white"
-                    >
+    <li class="nav-item mb-2">
 
-                        Clientes
+        <a
+            href="/services"
+            class="nav-link text-white"
+        >
 
-                    </a>
+            Serviços
 
-                </li>
+        </a>
 
-                <li class="nav-item mb-2">
+    </li>
 
-                    <a
-                        href="/services"
-                        class="nav-link text-white"
-                    >
+    <li class="nav-item mb-2">
 
-                        Serviços
+        <a
+            href="/professionals"
+            class="nav-link text-white"
+        >
 
-                    </a>
+            Profissionais
 
-                </li>
+        </a>
 
-                <li class="nav-item mb-2">
+    </li>
 
-                    <a
-                        href="/appointments"
-                        class="nav-link text-white"
-                    >
+    <li class="nav-item mb-2">
 
-                        Agendamentos
+        <a
+            href="/appointments"
+            class="nav-link text-white"
+        >
 
-                    </a>
+            Agendamentos
 
-                </li>
+        </a>
 
-            </ul>
+    </li>
 
-        </div>
-
-        <div class="p-4 w-100">
-
-            @yield('content')
-
-        </div>
-
-    </div>
-
-</body>
-
-</html>
+</ul>
 
